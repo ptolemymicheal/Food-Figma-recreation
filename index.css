@@ -1,0 +1,23 @@
+*{
+box-sizing: border-box; 
+margin: 0;
+
+}
+section{
+    height: 200px;
+}
+.section-one{
+    background: #f8f9fb;
+}
+.section-two{
+background-color: #ffffff;
+}
+.section-three{
+  background-color: #f8f9fb;  
+}
+.section-four{
+    background-color: #ffffff;
+}
+.section-five{
+    background-color: #f8f9fb;
+}
