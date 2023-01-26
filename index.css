@@ -9,10 +9,9 @@
   z-index: -1;
 }
 section {
-  min-height: 110vh;
+  min-height: 10vh;
 }
-ul {
-  list-style: none;
+nav {
   color: #ffffff;
   display: flex;
   float: right;
@@ -20,9 +19,12 @@ ul {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 24px;
   margin-right: 10px;
+}
+nav>a{
+  text-decoration: none;
   color: #ffffff;
 }
 .contact-btn{
@@ -46,20 +48,19 @@ ul {
   background-color: #f8f9fb;
 }
 header > .header {
-padding: 50px;
+  padding: 50px;
   font-family: "Playfair Display";
   font-weight: 700;
-  font-size: 90px;
+  font-size: 5.6rem;
   line-height: 110px;
   text-align: center;
   color: #ffffff;
 }
 header > .sub-header {
-  width: 1111px;
   height: 64px;
   font-family: "Inter";
   font-weight: 400;
-  font-size: 22px;
+  font-size:  1.4rem; 
   line-height: 32px;
   text-align: center;
   color: #ededed;
